@@ -17,7 +17,7 @@ def find_the_cheese(cheeses)
     
     end
   if true 
-    cheeses.join
+    
   else
     false 
 end
