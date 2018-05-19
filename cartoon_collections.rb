@@ -16,10 +16,6 @@ def find_the_cheese(cheeses)
     cheeses.each do |cheese| 
     new_array << cheese.include?(cheese_types)
     end
-  if
-    true 
-    new_array.join
-  else
-    false 
-  end
+ new_array.join
+ new_array
 end
