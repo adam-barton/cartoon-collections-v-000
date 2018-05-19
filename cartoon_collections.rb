@@ -15,5 +15,4 @@ def find_the_cheese(cheeses)
   
     cheeses.any?{|cheeses| cheese_types.include?(cheese_types)}
     
-  
 end
