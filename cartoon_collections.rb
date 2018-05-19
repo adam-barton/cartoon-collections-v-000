@@ -15,7 +15,6 @@ def find_the_cheese(cheeses)
   new_array = []
     cheeses.each do |cheese| 
     new_array << cheese.include?(cheese_types)
-    new_array.join(" ")
     end
  
  new_array
